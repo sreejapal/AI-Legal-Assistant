@@ -176,3 +176,4 @@ logs/
 # Output files
 output/
 results/
+.env
