@@ -5,7 +5,6 @@ langchain-huggingface>=0.0.1
 faiss-cpu>=1.7.2
 sentence-transformers>=2.2.2
 torch>=2.0.0
-numpy>=1.23.0
 
 # PDF generation and processing
 fpdf2>=2.7.0
@@ -13,7 +12,30 @@ PyMuPDF>=1.23.0
 
 # Progress tracking and utilities
 tqdm>=4.64.0
-pandas>=1.5.0
 
 # Note: Built-in Python modules (textwrap, re, string, pathlib, typing, json, os, math) 
 # are included with Python and don't need to be installed separately
+# Core data science packages
+numpy
+pandas
+dotenv
+# Machine learning
+scikit-learn>=1.3.0
+joblib>=1.4.0
+
+# Web scraping and HTML parsing
+beautifulsoup4>=4.12.0
+
+# API and HTTP requests
+openai>=1.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Data processing utilities
+python-dateutil>=2.8.0
+pytz>=2023.3
+
+# Optional: For better performance
+scipy>=1.11.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
